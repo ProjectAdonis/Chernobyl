@@ -117,12 +117,23 @@
     overflow: hidden;
   }
   .item-parallax-media img {
-    position: absolute;
+    position: relative;
+    z-index: 1;
     top: -10%;
     left: -10%;
     width: 120%;
     height: 120%;
     object-fit: cover;
+  }
+  .item-parallax-media::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 45, 78, 0.411);
+    z-index: 2;
   }
   .section-landing:before {
     content: '';
@@ -171,6 +182,16 @@
     object-fit: cover;
     will-change: transform;
     backface-visibility: visible;
+  }
+  .img-gridItem img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 45, 78, 0.411);
+    z-index: 2;
   }
   .img-gridItem.type-left img {
     margin-right: auto;
