@@ -1,3 +1,11 @@
+const element = document.getElementById('your-element-id');
+if (element !== null) {
+  // Access the element's properties here
+  element.style.color = 'red';
+} else {
+  console.log('Element not found');
+}
+
 const body = document.body;
 const content = document.querySelector('.js-content');
 const blocks = document.querySelectorAll('.block');
