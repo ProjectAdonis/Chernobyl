@@ -1,95 +1,109 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chernobyl</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAACgklEQVR4nO1WvW4TQRA+QQMSwt51kAg2BMIL0NBCi8RPReARokDgFVz4Zs4gKKiIESVSwIEGm5u9GIk8ABJdLKr0gSAgFCBiGc3eOiT27e1CQFBkpJFOtzPzzXy3M3NBsCv/mwhVOyoVzkoCEoRdQfAlVexKwrhEcF3G9cofA5StsCwJGpLwu1TYd2hPKmgW27WJHYGWCC8JBZ89ALcp+xST8OLvVargRloB9gXBU6lgxQ0KK0Lhs5/V4+wvVypT2jYGzpKiKScwRVOpLd40wD3vymUrLA/o5QuznQVcygFeymCsLxR+GqNw3AksFD40gZ4MnxWS8JRhYZjiDT4biUW4kDIBDY+W4cDw1dYaUuFcRrVzmfE69WNS4TfdEa2wbAXWfZpm+MhmU4rx9DAwv7PGJJxnm2KM1+zAhLEOlsDlrPNCJ5qUBO8zqH5XSGonMqsmuGLs2lZgoeAtGxUoOp6ZmIKmaa+ktHjrCKsgXDQsPbYmq9gHu3ZgwnU2mnhV3WcB/qAT60STg3cH49rJFBjXsnw4lgFez6vYa0pxpQMffvadZoGLancQfMlVs/Kzlw/lUL15uf6Otq3AerW5A6zqFiFc0zc8bZdVD6pn7BXH9Ypr/QmC6ZFPRDCdP8Mxf4AYuh/kBHgTNJt7R5yq1T2C4LUdHO7ngmq6uTctt7sYw1mbH59lJwsfD7VvH3YCa+oUnstYBiNLwzZgtmivqPCCF+jQ3O5tVptEZ1w+bLMVdHitegtny/vUBOItM8+zl+dypXl3Pys/C4VXeWRqG0OvoPB8sBM58PzOmFBwz+tnj20IGl6L31fMn8mMVPBCECzz7E0Vlnk46DNXy+xK8A/kByxOJI/9mZCmAAAAAElFTkSuQmCC" type="image/x-icon">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chernobyl</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAACgklEQVR4nO1WvW4TQRA+QQMSwt51kAg2BMIL0NBCi8RPReARokDgFVz4Zs4gKKiIESVSwIEGm5u9GIk8ABJdLKr0gSAgFCBiGc3eOiT27e1CQFBkpJFOtzPzzXy3M3NBsCv/mwhVOyoVzkoCEoRdQfAlVexKwrhEcF3G9cofA5StsCwJGpLwu1TYd2hPKmgW27WJHYGWCC8JBZ89ALcp+xST8OLvVargRloB9gXBU6lgxQ0KK0Lhs5/V4+wvVypT2jYGzpKiKScwRVOpLd40wD3vymUrLA/o5QuznQVcygFeymCsLxR+GqNw3AksFD40gZ4MnxWS8JRhYZjiDT4biUW4kDIBDY+W4cDw1dYaUuFcRrVzmfE69WNS4TfdEa2wbAXWfZpm+MhmU4rx9DAwv7PGJJxnm2KM1+zAhLEOlsDlrPNCJ5qUBO8zqH5XSGonMqsmuGLs2lZgoeAtGxUoOp6ZmIKmaa+ktHjrCKsgXDQsPbYmq9gHu3ZgwnU2mnhV3WcB/qAT60STg3cH49rJFBjXsnw4lgFez6vYa0pxpQMffvadZoGLancQfMlVs/Kzlw/lUL15uf6Otq3AerW5A6zqFiFc0zc8bZdVD6pn7BXH9Ypr/QmC6ZFPRDCdP8Mxf4AYuh/kBHgTNJt7R5yq1T2C4LUdHO7ngmq6uTctt7sYw1mbH59lJwsfD7VvH3YCa+oUnstYBiNLwzZgtmivqPCCF+jQ3O5tVptEZ1w+bLMVdHitegtny/vUBOItM8+zl+dypXl3Pys/C4VXeWRqG0OvoPB8sBM58PzOmFBwz+tnj20IGl6L31fMn8mMVPBCECzz7E0Vlnk46DNXy+xK8A/kByxOJI/9mZCmAAAAAElFTkSuQmCC"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main class="content js-content">
+      <section class="block section-landing">
+        <figure class="item-parallax-media">
+          <img src="Pictures/chernobyl-guy.webp" alt="" />
+        </figure>
+        <div class="item-parallax-content flex-container">
+          <div class="landing-content centered-content">
+            <h1 class="head-large">The History of Chernobyl</h1>
+          </div>
+        </div>
+      </section>
 
-  <main class="content js-content">
-  
-    <section class="block section-landing">
-      <figure class="item-parallax-media">
-        <img src="Pictures/chernobyl-guy.webp" alt="" />
-      </figure>
-      <div class="item-parallax-content flex-container">
-        <div class="landing-content centered-content">
-          <h1 class="head-large">The History of Chernobyl</h1>
-        </div>
-      </div>
-    </section>
-    
-    <section class="block section-intro">
-      <div class="item-parallax-content flex-container">
-        <div class="centered-content">
-          <h2 class="head-small head-centered">Tragedy Strikes</h2>
-          <p class="copy copy-white">
-            On April 26, 1986, the Chernobyl nuclear power plant in Ukraine, near Pripyat, experienced a catastrophic nuclear accident. It was one of the worst nuclear disasters in history.
-          </p>
-          <p class="copy copy-white">
-            The explosion and subsequent fires released large amounts of radioactive particles into the atmosphere, contaminating the surrounding area and affecting the lives of thousands of people.
-          </p>
-        </div>
-      </div>
-    </section>
-    
-    <section class="block section-part">
-      <figure class="item-parallax-media">
-        <img src="Pictures/bg.webp" alt="" />
-      </figure>
-      <div class="item-parallax-content flex-container">
-        <div class="centered-content">
-          <h1 class="head-large head-centered">Aftermath and Exclusion Zone</h1>
-          <p class="copy copy-white">
-            In the wake of the Chernobyl disaster, a large exclusion zone was established around the site to restrict access and protect people from the dangerous levels of radiation.
-          </p>
-        </div>
-      </div>
-    </section>
-    
-    <section class="block">
-      <div class="item-parallax-content flex-container img-grid">
-        <figure class="img-gridItem type-right">
-          <img src="Pictures/Divers.webp" alt="" />
-          <figcaption class="img-caption">
-            <h2 class="head-small">The Divers</h2>
+      <section class="block section-intro">
+        <div class="item-parallax-content flex-container">
+          <div class="centered-content">
+            <h2 class="head-small head-centered">Tragedy Strikes</h2>
             <p class="copy copy-white">
-              To avert more disaster after Chernobyl, divers drained radioactive water under the reactor. They faced high radiation, darkness and danger. Their selfless bravery showed human spirit.
+              On April 26, 1986, the Chernobyl nuclear power plant in Ukraine,
+              near Pripyat, experienced a catastrophic nuclear accident. It was
+              one of the worst nuclear disasters in history.
             </p>
-          </figcaption>
-        </figure>
-        <figure class="img-gridItem type-left">
-          <img src="Pictures/wildlife.webp" alt="" />
-          <figcaption class="img-caption">
-            <h2 class="head-small">The Wildlife</h2>
             <p class="copy copy-white">
-              Despite high radiation, the Chernobyl Exclusion Zone hosts diverse wildlife. Few humans and no hunting allow animals, such as wolves and rare birds, to thrive. Nature reclaims the land.
+              The explosion and subsequent fires released large amounts of
+              radioactive particles into the atmosphere, contaminating the
+              surrounding area and affecting the lives of thousands of people.
             </p>
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-    
-    <section class="block section-end">
-      <figure class="item-parallax-media">
-        <img src="Pictures/masks.webp" alt="" />
-      </figure>
-      <div class="item-parallax-content flex-container">
-        <div class="landing-content centered-content">
-          <h1 class="head-large">Remembering the Past</h1>
+          </div>
         </div>
-      </div>
-    </section>
-    
-    <section class="custom-properties-ftw">
-      <h3 class="head-small head-centered">Thanks for reading!</h3>
+      </section>
+
+      <section class="block section-part">
+        <figure class="item-parallax-media">
+          <img src="Pictures/bg.webp" alt="" />
+        </figure>
+        <div class="item-parallax-content flex-container">
+          <div class="centered-content">
+            <h1 class="head-large head-centered">
+              Aftermath and Exclusion Zone
+            </h1>
+            <p class="copy copy-white">
+              In the wake of the Chernobyl disaster, a large exclusion zone was
+              established around the site to restrict access and protect people
+              from the dangerous levels of radiation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block">
+        <div class="item-parallax-content flex-container img-grid">
+          <figure class="img-gridItem type-right">
+            <img src="Pictures/Divers.webp" alt="" />
+            <figcaption class="img-caption">
+              <h2 class="head-small">The Divers</h2>
+              <p class="copy copy-white">
+                To avert more disaster after Chernobyl, divers drained
+                radioactive water under the reactor. They faced high radiation,
+                darkness and danger. Their selfless bravery showed human spirit.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="img-gridItem type-left">
+            <img src="Pictures/wildlife.webp" alt="" />
+            <figcaption class="img-caption">
+              <h2 class="head-small">The Wildlife</h2>
+              <p class="copy copy-white">
+                Despite high radiation, the Chernobyl Exclusion Zone hosts
+                diverse wildlife. Few humans and no hunting allow animals, such
+                as wolves and rare birds, to thrive. Nature reclaims the land.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="block section-end">
+        <figure class="item-parallax-media">
+          <img src="Pictures/masks.webp" alt="" />
+        </figure>
+        <div class="item-parallax-content flex-container">
+          <div class="landing-content centered-content">
+            <h1 class="head-large">Remembering the Past</h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="custom-properties-ftw">
+        <h3 class="head-small head-centered">Thanks for reading!</h3>
         <h6><u>Design :</u> Copyright (c) 2023 by Hornebom</h6>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

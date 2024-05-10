@@ -1,17 +1,17 @@
-const element = document.getElementById('your-element-id');
+const element = document.getElementById("your-element-id");
 if (element !== null) {
   // Access the element's properties here
-  element.style.color = 'red';
+  element.style.color = "red";
 } else {
-  console.log('Element not found');
+  console.log("Element not found");
 }
 
 const body = document.body;
-const content = document.querySelector('.js-content');
-const blocks = document.querySelectorAll('.block');
+const content = document.querySelector(".js-content");
+const blocks = document.querySelectorAll(".block");
 const updateOffset = () => {
   requestAnimationFrame(updateOffset);
-  body.style.setProperty('--y', content.scrollTop);
+  body.style.setProperty("--y", content.scrollTop);
   updateProps();
 };
 const updateProps = () => {
